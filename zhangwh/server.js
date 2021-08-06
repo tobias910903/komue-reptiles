@@ -7,10 +7,12 @@ http.listen(port, '0.0.0.0', function () {
     console.log('服务已启动，访问地址 localhost:' + port);
 });
 
+
 /* 页面 */
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/index.html');
 });
+
 
 /* 需要获取数据的接口 */
 app.get('/data', function (req, res) {
