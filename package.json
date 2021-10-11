@@ -4,7 +4,7 @@
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
-    "axios": "^0.21.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "node-xlsx": "^0.17.2"
   }
 }
